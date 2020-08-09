@@ -1,0 +1,104 @@
+
+
+.navbar{
+    background-color: white;
+
+}
+
+.navbar-brand:hover{
+  color: rgb(175, 175, 175) !important;
+  }
+
+.navbar-brand{
+background-color: #007373;
+color: #ffffff !important;;
+padding: 10px;
+}
+
+.navbar-brand a:hover{
+    color: gray !important;;
+}
+
+nav .navbar-nav li a{
+    color: black !important;
+    }
+
+nav .navbar-nav li a:hover{
+    color: gray !important;
+
+    }
+
+.container {
+    background-color:  rgba(218, 223, 225, 1);
+    padding-bottom: 50 px;
+  }
+  
+  
+.col-md-8 {
+    background-color: #FFFFFF;
+    min-height: 800px;
+    margin: 20px;
+  }
+  
+ 
+
+  
+.col-md-3{
+    background-color: #FFFFFF;
+    min-height: 20px;
+    align: right;
+    margin: 20px;
+  }
+  
+.col-md-11{
+    background-color: #FFFFFF;
+    min-height: 20px;
+    margin: 20px;
+  }
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.box {
+  margin-top: 60px; 
+  margin-bottom: 62px; 
+  padding: 10px 20px 15px; 
+  color:black;
+  background-color: white; 
+}
+
+.box2 {
+  margin-top: 30px; 
+  padding: 10px 20px 15px; 
+  color:black;
+  background-color: white; 
+}
+
+h1{
+  color:#007373 !important;
+}
+
+h2{
+  color:#007373 !important;
+}
+
+@media (max-width: 992px) {
+    nav.navbar {
+        background: #007373;
+        }
+        .navbar{
+          max-height: none; 
+          padding: inherit;
+        }
+        .navbar div{
+          margin: inherit; 
+          background-color: white;  
+        }
+        .navbar-brand{
+          padding: 10px !important; 
+        }
+            
+      }
+
+  
